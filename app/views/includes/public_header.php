@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 </head>
-<<body class="<?php $this->getData('page_class'); ?>">
+<body>
     <div id="wrapper">
         <div class="container nav-container">
             <nav class="nav-menu">
@@ -22,5 +22,5 @@
                     <li><a href="?page=about" class="menu-link">ABOUT US</a></li>
                 </ul>
             </nav>
-            <i class="fa-solid fa-cart-shopping"></i> (<span id="cart-count"><?php echo $this->getData('cart_total_items'); ?></span>)
-        </div>
+            <i class="fa-solid fa-cart-shopping"></i> (<span id="cart-count"></span>)
+            </div>
